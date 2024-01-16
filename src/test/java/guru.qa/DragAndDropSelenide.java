@@ -22,5 +22,6 @@ public class DragAndDropSelenide {
         $("#column-b").shouldHave(text("B"));
         $("#column-a").dragAndDropTo("#column-b");
         $("#column-a").shouldHave(text("B"));
+        $("#column-b").shouldHave(text("A"));
     }
 }
